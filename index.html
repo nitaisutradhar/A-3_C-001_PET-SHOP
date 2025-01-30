@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse4Pets Navbar</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/ad7b68bf17.js" crossorigin="anonymous"></script>
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                "accent-bg": "#FFDC26",
+              },
+              fontFamily: {
+                adlam: ['"ADLaM Display"', 'serif'],
+              },
+            },
+          },
+        };
+      </script>
+  </head>
+  <body class="font-adlam text-[#111111]">
+    <!-- header section -->
+    <header>
+      <nav class="bg-[#FFF9F4] border border-[0.5px] border-black sm:border-none">
+        <div class="py-4 px-6 flex justify-between items-center border-b md:container mx-auto">
+          <!-- Left side: Logo and title -->
+          <div class="flex items-center gap-x-3">
+            <img class="size-12" src="./c1-assets/logo-header.png" alt="">
+            <h1 class="text-[26px] hidden sm:block">Browse<span class="text-accent-bg">4</span>Pets</h1>
+          </div>
+
+          <!-- Center links -->
+          <div class="hidden lg:flex space-x-8">
+            <a href="#" class="text-xl hover:text-yellow-500">Find a pet</a>
+            <a href="#" class="text-xl hover:text-yellow-500">Breeds</a>
+            <a href="#" class="text-xl hover:text-yellow-500">Contact us</a>
+          </div>
+
+          <!-- Right side: Icons and buttons -->
+          <div class="hidden md:flex items-center space-x-4">
+            <div class="text-2xl hover:text-yellow-500"><i class="fa-regular fa-bell"></i></div>
+            <div class="text-2xl hover:text-yellow-500"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <button class="border border-accent-bg px-7 py-2 rounded-lg hover:bg-gray-100 text-xl">
+              Login
+            </button>
+            <button class="bg-yellow-500 px-7 py-2 rounded-lg text-xl">
+              Register
+            </button>
+          </div>
+          <!-- Menu Icon For Small Device 
+           -->
+          <div class="sm:hidden size-8 text-center cursor-pointer"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main section -->
+    <main></main>
+    <!-- footer section -->
+    <footer></footer>
+  </body>
+</html>
