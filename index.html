@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/ad7b68bf17.js" crossorigin="anonymous"></script>
     <!-- DaisyUI -->
@@ -29,15 +30,17 @@
               },
               fontFamily: {
                 adlam: ['"ADLaM Display"', 'serif'],
+                sora: ['"Sora"', 'serif'],
               },
             },
           },
         };
       </script>
   </head>
-  <body class="font-adlam text-[#111111]">
+  <body class="font-sora text-[#111111]">
     <!-- header section -->
     <header>
+        <!-- Navbar Section -->
       <nav class="bg-[#FFF9F4] border border-[0.5px] border-black sm:border-none">
         <div class="py-4 px-6 flex justify-between items-center border-b md:container mx-auto">
           <!-- Left side: Logo and title -->
@@ -57,10 +60,10 @@
           <div class="hidden md:flex items-center space-x-4">
             <div class="text-2xl hover:text-yellow-500"><i class="fa-regular fa-bell"></i></div>
             <div class="text-2xl hover:text-yellow-500"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <button class="border border-accent-bg px-7 py-2 rounded-lg hover:bg-gray-100 text-xl">
+            <button class="border border-accent-bg px-[30px] py-[10px] rounded-lg hover:bg-gray-100 text-xl">
               Login
             </button>
-            <button class="bg-yellow-500 px-7 py-2 rounded-lg text-xl">
+            <button class="bg-yellow-500 px-[30px] py-[10px] rounded-lg text-xl">
               Register
             </button>
           </div>
@@ -69,6 +72,17 @@
           <div class="sm:hidden size-8 text-center cursor-pointer"><i class="fa-solid fa-bars"></i></div>
         </div>
       </nav>
+      <!-- Banner Section -->
+       <div class="relative md:container mx-auto mt-[32px] md:mt-[76px]">
+        <!-- Text Content -->
+         <div class="mx-4 md:mx-0">
+            <h1 class="font-adlam text-[30px] md:text-[56px] mt-0 md:mt-6">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
+            <p class="text-[16px] md:text-xl mt-3 md:mt-4">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn bg-accent-bg px-[30px] py-[10px]h mt-3 md:mt-6">Find a pet</button>
+         </div>
+         <!-- Image Content -->
+          <img class="absolute -z-10 -mt-28 md:-mt-96" src="./c1-assets/cat-big.png" alt="">
+       </div>
     </header>
     <!-- Main section -->
     <main></main>
