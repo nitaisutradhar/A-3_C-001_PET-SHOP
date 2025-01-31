@@ -41,7 +41,7 @@
     <!-- header section -->
     <header>
         <!-- Navbar Section -->
-      <nav class="bg-[#FFF9F4] border border-[0.5px] border-black sm:border-none">
+      <nav class="bg-[#FFF9F4] border-[0.5px] border-black sm:border-none">
         <div class="py-4 px-6 flex justify-between items-center border-b md:container mx-auto">
           <!-- Left side: Logo and title -->
           <div class="flex items-center gap-x-3">
@@ -73,19 +73,105 @@
         </div>
       </nav>
       <!-- Banner Section -->
-       <div class="relative md:container mx-auto mt-[32px] md:mt-[76px]">
+       <div class="overflow-hidden md:container mx-auto mt-[32px] md:mt-[76px]">
         <!-- Text Content -->
-         <div class="mx-4 md:mx-0">
+         <div class="relative z-10 mx-4 md:mx-0">
             <h1 class="font-adlam text-[30px] md:text-[56px] mt-0 md:mt-6">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
             <p class="text-[16px] md:text-xl mt-3 md:mt-4">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
             <button class="btn bg-accent-bg px-[30px] py-[10px]h mt-3 md:mt-6">Find a pet</button>
          </div>
          <!-- Image Content -->
-          <img class="absolute -z-10 -mt-28 md:-mt-96" src="./c1-assets/cat-big.png" alt="">
+          <img class="relative z-0 -mt-28 md:-mt-96" src="./c1-assets/cat-big.png" alt="">
        </div>
     </header>
     <!-- Main section -->
-    <main></main>
+    <main class="max-w-[90%] md:max-w-[83%] mx-auto">
+      <!-- Categories Section -->
+       <section>
+        <h2 class="font-adlam text-[36px] mt-36">Browse By Categories</h2>
+        <!-- cards section -->
+        <div class="flex justify-center items-center flex-wrap gap-6 mt-12">
+          <!-- card 1 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/dog-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Dog</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/fish-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Fish</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/cat-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Cat</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/bird-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Birds</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/mouse-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Small pet</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="card bg-[#F9DF8A] rounded-xl shadow-xl">
+            <figure class="px-12 pt-[34px]">
+              <div class="avatar">
+                <div class="w-[104px] p-7 bg-white rounded-full">
+                  <img class="size-12" src="./c1-assets/rabbit-cartoon.png" />
+                </div>
+            </figure>
+            <div class="card-body items-center text-center pt-6">
+              <h2 class="font-adlam card-title text-xl">Rabit</h2>
+              <p>3 items</p>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
     <!-- footer section -->
     <footer></footer>
   </body>
